@@ -1,12 +1,10 @@
-import React from 'react';
-import styles from '../styles/Item.module.css';
-import ItemCard from './ItemCard';
-import itemData from '../data/itemData';
+import styles from "../styles/Item.module.css";
+import ItemCard from "./ItemCard";
 
 function Items() {
   return (
     <div className={styles.wrapper}>
-        <ItemCard  name = "Apple" price = {1.99}/> 
+      <ItemCard name="Apple" price={199} />
     </div>
   );
 }
