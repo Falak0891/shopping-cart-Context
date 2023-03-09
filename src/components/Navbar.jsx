@@ -8,7 +8,7 @@ function Navbar() {
   console.log(value);
   return (
     <div className={styles.container}>
-      <h1>Total : &#x20B9; {value.context}</h1>
+      <h1>Total : &#x20B9; {value.total}</h1>
       <h1>Items: 0</h1>
     </div>
   );
